@@ -1,0 +1,291 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="section-1 box" id="section-1">
+	<h1>Welcome To Indian Electrcity Bill Pay Counter</h1>
+</div>
+
+<div class="section-2 box" id="section-2">
+
+	<h1>Login into your account first</h1>
+	<div class="login-box">
+            <form>
+            <label for="phone">Mobile Number</label>
+            <input type="tel" name="country_code" title="Error Message" pattern="[1-9]{1}[0-9]{9}" maxlength="10" placeholder="Enter Mobile Number" ><br> 
+            <p>Otp</p>
+            <input type="password" name="One Time Password(OTP)" placeholder="Enter OTP" maxlength="6" ><br>
+            <a href="#section-2">Get OTP</a><br>
+	    <a href="#section-3">Login</a> 	 
+               
+            </form>        
+        </div>
+</div>
+
+<div class="section-3 box" id="section-3">
+	<h1>Pay your Bill here </h1>
+        <div class="Bill-box">
+
+            <p>Select State</p>
+            <input type="text" name="state" placeholder="Select State" ><br>
+            <p>Select Board</p>
+            <input type="text" name="board" placeholder="Select Board" ><br>
+            <p>Enter USC code</P>
+            <input type="text" name="code"  placeholder="Unique Service Code" maxlength="9"><br>
+	    <a href="HTML PROJECT2.html">Proceed</a><br>
+            
+            </form>        
+        </div>
+</div>
+
+<style>
+
+body {margin:0;height:2000px;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+
+
+
+html{
+scroll-behaviour: smooth;
+}
+
+
+	*{
+		padding: 0px;
+		margin:0px;
+		box-sizing: border-box;
+	}
+
+	.box{
+		width: 100%;
+		height: 600px;
+		padding: 40px 60px;
+		color: white;
+		font-family: sans-serif;
+		text-align: center;
+	}
+
+	.section-1{
+          height: 100vh;
+          background-image: url(Bg.jpg);
+          background-attachment: fixed;
+          background-size: cover;
+	}
+
+	
+	.section-2{
+		background-image: url(Bg1.jpg);
+                background-attachment: fixed;
+                background-size: cover ;
+                height: 40%;
+	}
+
+	.section-3{
+		background-image: url(Bg2.jpg);
+                background-attachment: fixed;
+                background-size: cover;
+                height: 40%;       
+	}
+        
+	.box p{
+		font-size: 20px;
+		margin-top: 100px;
+	}
+
+	.box h1{
+		font-size: 50px;
+		text-shadow:  0px 0px 5px #000;
+	}
+        
+
+
+.login-box{
+                border-radius: 30px;
+                width: 320px;
+                height: 420px;
+                background: rgba(0, 0, 0, 0.5);
+                color: #fff;
+                top: 150%;
+                left: 50%;
+                position: absolute;
+                transform: translate(-50%,-50%);
+                box-sizing: border-box;
+                padding: 70px 30px;
+        }
+.login-box p{   
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="tel"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    padding: 10px 5px;
+    margin: 4px 2px;   
+    font-size: 18px;
+    background-color: #575fcf;
+    color: #fff;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+
+
+.Bill-box{
+                border-radius: 30px;
+                width: 320px;
+                height: 420px;
+                background: rgba(0, 0, 0, 0.5);
+                color: #fff;
+                top: 265%;
+                left: 50%;
+                position: absolute;
+                transform: translate(-50%,-50%);
+                box-sizing: border-box;
+                padding: 70px 30px;
+        }
+.Bill-box p{   
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.Bill-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Bill-box input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.Bill-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+}
+.Bill-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.Bill-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.Bill-box a:hover
+{
+    color: #39dc79;
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+
+
+</body>
+</html>
